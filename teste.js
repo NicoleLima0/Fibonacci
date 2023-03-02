@@ -1,6 +1,5 @@
 function fibonacci(n) {
   let fib = [0, 1];
-
   for (let i = 2; i <= n; i++) {
     fib[i] = fib[i - 1] + fib[i - 2];
   }
@@ -22,3 +21,4 @@ function sequenciafibonacci(n) {
 let number = parseInt(prompt("Coloque um número: "));
 let message = sequenciafibonacci(number);
 console.log(message);
+
